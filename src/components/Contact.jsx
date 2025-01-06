@@ -11,7 +11,7 @@ const Contact = () => {
           Contact Me
         </h2>
         <p className="text-lg mb-4 animate__animated animate__fadeInUp animate__delay-1s">
-          Feel free to reach out for collaborations, job opportunities, or any inquiries.
+          Feel free to reach out for job opportunities, or any inquiries.
         </p>
 
         {/* Contact Buttons */}
@@ -27,7 +27,7 @@ const Contact = () => {
         {/* Social Icons Section */}
         <div className="mt-6 flex justify-center space-x-4 animate__animated animate__fadeInUp animate__delay-2s">
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://linkedin.com/in/chaitanya-malepati"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-pink-300 text-xl transition transform hover:scale-125"
@@ -35,7 +35,7 @@ const Contact = () => {
             <i className="fab fa-linkedin"></i>
           </a>
           <a
-            href="https://github.com/your-profile"
+            href="https://github.com/malepatic"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-pink-300 text-xl transition transform hover:scale-125"
@@ -43,7 +43,7 @@ const Contact = () => {
             <i className="fab fa-github"></i>
           </a>
           <a
-            href="https://twitter.com/your-profile"
+            href="https://x.com/logan_wolf21/status/1845462473647812831?s=61"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-pink-300 text-xl transition transform hover:scale-125"
@@ -51,7 +51,7 @@ const Contact = () => {
             <i className="fab fa-twitter"></i>
           </a>
           <a
-            href="https://instagram.com/your-profile"
+            href="https://instagram.com/chaitanya.069"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-pink-300 text-xl transition transform hover:scale-125"
