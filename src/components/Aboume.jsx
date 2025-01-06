@@ -12,7 +12,7 @@ const AboutMe = () => {
           <div className="relative inline-block bg-pink-500 rounded-full p-2 shadow-lg">
             <img
               src="/images/photo.jpeg" // Correct path to image in public folder
-              alt="Chaitanya Malepati"
+              alt=""
               className="w-40 h-40 sm:w-32 sm:h-32 rounded-full border-4 border-white object-cover"
             />
           </div>
