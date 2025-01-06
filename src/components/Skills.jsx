@@ -26,6 +26,11 @@ const Skills = () => {
       category: "Tools",
       skills: ["Git", "GitHub", "IDEs", "Linux", "Tmux"],
       icon: "🔧"
+    },
+    {
+      category: "Certifications",
+      skills: ["AWS Certified Cloud Practitioner"],
+      icon: "🏅"
     }
   ];
 
