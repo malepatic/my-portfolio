@@ -1,5 +1,4 @@
 import React from "react";
-import photo from "../photo.jpeg"; // Correct path to your image file
 
 const AboutMe = () => {
   return (
@@ -12,7 +11,7 @@ const AboutMe = () => {
         <div className="mb-8">
           <div className="relative inline-block bg-pink-500 rounded-full p-2 shadow-lg">
             <img
-              src={photo} // Use imported image
+              src="/images/photo.jpeg" // Correct path to image in public folder
               alt="Chaitanya Malepati"
               className="w-40 h-40 sm:w-32 sm:h-32 rounded-full border-4 border-white object-cover"
             />
@@ -26,9 +25,9 @@ const AboutMe = () => {
 
         {/* Description */}
         <p className="text-xl max-w-3xl mx-auto mb-8 animate__animated animate__fadeInUp animate__delay-2s sm:text-lg sm:max-w-full">
-        I am currently pursuing a Master’s in Computer Software Engineering at Northeastern University, Boston, with an expected graduation in May 2026. My key skills include React.js, Node.js, AWS, Docker, and PostgreSQL, and I have a strong foundation in programming with Python, JavaScript, and Java.
+          I am currently pursuing a Master’s in Computer Software Engineering at Northeastern University, Boston, with an expected graduation in May 2026. My key skills include React.js, Node.js, AWS, Docker, and PostgreSQL, and I have a strong foundation in programming with Python, JavaScript, and Java.
 
-I am particularly interested in Software Engineering, Application Development, and DevOps, with a focus on creating scalable, cloud-native applications and automating development workflows. My academic and project experience has helped me develop expertise in building efficient, responsive web applications and deploying them in cloud environments using tools like CI/CD pipelines and containerization.
+          I am particularly interested in Software Engineering, Application Development, and DevOps, with a focus on creating scalable, cloud-native applications and automating development workflows. My academic and project experience has helped me develop expertise in building efficient, responsive web applications and deploying them in cloud environments using tools like CI/CD pipelines and containerization.
         </p>
 
         {/* Social Icons */}
